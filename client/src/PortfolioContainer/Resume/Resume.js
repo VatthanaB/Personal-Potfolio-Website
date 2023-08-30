@@ -66,7 +66,7 @@ export default function Resume(props) {
       title: "Personal Portfolio Website",
       duration: { fromDate: "2023", toDate: "2023" },
       description:
-        " A personal portfolio website to showcase my work and skills. This website is built using ReactJS.The website is responsive and can be viewed on mobile devices as well.",
+        " A personal portfolio website to showcase my work and skills.",
       subHeading: "Technologies Used : ReactJS, HTML, CSS, Javascript",
     },
     {
@@ -79,7 +79,7 @@ export default function Resume(props) {
       title: "Personal Portfolio Website",
       duration: { fromDate: "2023", toDate: "2023" },
       description:
-        " A personal portfolio website to showcase my work and skills. This website is built using ReactJS.The website is responsive and can be viewed on mobile devices as well.",
+        " A personal portfolio website to showcase my work and skills.",
       subHeading: "Technologies Used : ReactJS, HTML, CSS, Javascript",
     },
   ];
