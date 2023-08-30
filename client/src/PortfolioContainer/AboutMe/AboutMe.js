@@ -22,7 +22,7 @@ export default function AboutMe(props) {
         "Comfortable wielding Python spells, with a hint of Flask magic.",
         "Familiar with the wizardry of Git, GitHub, and Heroku.",
         "Eager to embrace new tech and frameworks with open arms.",
-        "Fluent in English and ready to converse in code.",
+        "Fluent in English and French,  ready to converse in code.",
       ],
       heading: "Here are a few Highlights:",
     },
