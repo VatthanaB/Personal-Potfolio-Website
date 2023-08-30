@@ -169,16 +169,16 @@ export default function Resume(props) {
 
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Gaming"
-        description="I love playing video games. I have been playing video games since I was 5 years old. I have played a lot of games and I am still playing. I am a big fan of the Assassin's Creed series. I have played all the games in the series. I also love playing FIFA and Call of Duty."
+        heading="Board Games 🎲"
+        description="Strategizing and rolling dice - board games turn tabletops into realms of rivalry and camaraderie."
       />
       <ResumeHeading
-        heading="Reading"
-        description=" I love reading books. I have read a lot of books. I love reading books on self development, business, finance, and technology. I also love reading fiction books. I have read all the books in the Harry Potter series. I also love reading the Percy Jackson series. "
+        heading="Reading 📚"
+        description="From pixels to paper, I'm an avid explorer of words, venturing through stories to expand my mind."
       />
       <ResumeHeading
-        heading="New Technologies"
-        description="I love learning about new technologies. I am always looking for new technologies to learn. I love learning about new technologies and I am always looking for new technologies to learn. I love learning about new technologies and I am always looking for new technologies to learn."
+        heading="Coding 💻"
+        description="Cracking code is my art; with each keystroke, I sculpt solutions and bring ideas to life."
       />
     </div>,
   ];

@@ -9,11 +9,12 @@ import Animations from "../../utilities/Animations";
 
 import "./Testimonial.css";
 
-import lady from "../../../src/img/Testimonial/lady.png";
-import mike from "../../../src/img/Testimonial/mike.png";
-import man from "../../../src/img/Testimonial/man.png";
+import dog from "../../../src/img/Testimonial/dog.jpg";
+import plant from "../../../src/img/Testimonial/plant.jpg";
+import cat from "../../../src/img/Testimonial/cat.jpg";
+import hamster from "../../../src/img/Testimonial/hamster.jpg";
+
 import shape from "../../../src/img/Testimonial/shape-bg.png";
-import daisy from "../../../src/img/Testimonial/daisy.jpg";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -63,9 +64,8 @@ export default function Testimonial(props) {
                 <div className="testi-comment">
                   <p>
                     <i className="fa fa-quote-left" />
-                    Vatthana is a talented fullstack developer! Transformed our
-                    vision into an amazing website. Fast, detail-oriented, and a
-                    great communicator. Highly recommend!
+                    Meow-mazing! I never thought a website could be this
+                    purrfect. I give it two paws up!
                     <i className="fa fa-quote-right" />
                   </p>
                   <ul className="stars lis-unstyled">
@@ -88,9 +88,78 @@ export default function Testimonial(props) {
                   </ul>
                 </div>
                 <div className="client-info">
-                  <img src={daisy} alt="client photo"></img>
-                  <h5>Jane Doe</h5>
-                  <p>CFO Some Company</p>
+                  <img src={cat} alt="client photo"></img>
+                  <h5>Mr. Whiskers </h5>
+                  <p>CFO Tiger&co</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="testi-item">
+                <div className="testi-comment">
+                  <p>
+                    <i className="fa fa-quote-left" />
+                    Woofinitely the best website ever! I'd trade all my treats
+                    for another visit.
+                    <i className="fa fa-quote-right" />
+                  </p>
+                  <ul className="stars lis-unstyled">
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+                    <li>
+                      <i className=" fa fa-star-half-alt" />
+                    </li>
+                  </ul>
+                </div>
+                <div className="client-info">
+                  <img src={dog} alt="client photo"></img>
+                  <h5>Sir Barksalot</h5>
+                  <p>CEO Woofy</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="testi-item">
+                <div className="testi-comment">
+                  <p>
+                    <i className="fa fa-quote-left" />
+                    As a non-tech-savvy fern, I'm leafing through the virtual
+                    jungle thanks to this website. It's like plant Wi-Fi!
+                    <i className="fa fa-quote-right" />
+                  </p>
+                  <ul className="stars lis-unstyled">
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+                    <li>
+                      <i className=" fa fa-star" />
+                    </li>
+                    <li>
+                      <i className=" fa fa-star-half-alt" />
+                    </li>
+                  </ul>
+                </div>
+                <div className="client-info">
+                  <img src={plant} alt="client photo"></img>
+                  <h5>Bob the Houseplant</h5>
+                  <p>Full Time Plant</p>
                 </div>
               </div>
             </div>
@@ -124,78 +193,7 @@ export default function Testimonial(props) {
                   </ul>
                 </div>
                 <div className="client-info">
-                  <img src={mike} alt="client photo"></img>
-                  <h5>Mike Doe</h5>
-                  <p>CFO Some Company</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="testi-item">
-                <div className="testi-comment">
-                  <p>
-                    <i className="fa fa-quote-left" />
-                    Vatthana is a talented fullstack developer! Transformed our
-                    vision into an amazing website. Fast, detail-oriented, and a
-                    great communicator. Highly recommend!
-                    <i className="fa fa-quote-right" />
-                  </p>
-                  <ul className="stars lis-unstyled">
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-                    <li>
-                      <i className=" fa fa-star-half-alt" />
-                    </li>
-                  </ul>
-                </div>
-                <div className="client-info">
-                  <img src={man} alt="client photo"></img>
-                  <h5>Man Doe</h5>
-                  <p>CFO Some Company</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="testi-item">
-                <div className="testi-comment">
-                  <p>
-                    <i className="fa fa-quote-left" />
-                    Vatthana is a talented fullstack developer! Transformed our
-                    vision into an amazing website. Fast, detail-oriented, and a
-                    great communicator. Highly recommend!
-                    <i className="fa fa-quote-right" />
-                  </p>
-                  <ul className="stars lis-unstyled">
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-
-                    <li>
-                      <i className=" fa fa-star" />
-                    </li>
-                    <li>
-                      <i className=" fa fa-star-half-alt" />
-                    </li>
-                  </ul>
-                </div>
-                <div className="client-info">
-                  <img src={lady} alt="client photo"></img>
+                  <img src={hamster} alt="client photo"></img>
                   <h5>Jane Doe</h5>
                   <p>CFO Some Company</p>
                 </div>
