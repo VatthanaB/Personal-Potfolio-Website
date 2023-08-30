@@ -14,15 +14,15 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     desription:
-      "Bonjour! I'm Vatthana, a 28-year-old French adventurer currently embracing the vibrant vibes of Auckland, New Zealand. My journey began more than a decade ago, crafting delectable and artful pastries within the esteemed walls of Michelin-starred restaurants and opulent palace hotels across the charming city of Paris. But now, I'm embarking on an exhilarating transformation, charting a new course from being a seasoned pastry virtuoso to a burgeoning Full Stack Developer.",
+      "Bonjour! I'm Vatthana, a 29-year-old French adventurer currently embracing the vibrant vibes of Auckland, New Zealand. My journey began more than a decade ago, crafting delectable and artful pastries within the esteemed walls of Michelin-starred restaurants and opulent palace hotels across the charming city of Paris. But now, I'm embarking on an exhilarating transformation, charting a new course from being a seasoned pastry virtuoso to a burgeoning Full Stack Developer.",
     highlights: {
       bullets: [
-        "Adept at designing, developing, and maintaining responsive websites and web applications.",
-        "Proficient in HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB.",
-        "Skilled in creating wireframes, mockups, and prototypes.",
-        "Experienced in using Git, GitHub, and Heroku.",
-        "Passionate about learning new technologies and frameworks.",
-        "Fluent in English, French.",
+        "Skilled at crafting and nurturing responsive websites and web apps.",
+        "Proficient with HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB.",
+        "Comfortable wielding Python spells, with a hint of Flask magic.",
+        "Familiar with the wizardry of Git, GitHub, and Heroku.",
+        "Eager to embrace new tech and frameworks with open arms.",
+        "Fluent in English and ready to converse in code.",
       ],
       heading: "Here are a few Highlights:",
     },
