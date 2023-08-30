@@ -168,9 +168,8 @@ export default function Testimonial(props) {
                 <div className="testi-comment">
                   <p>
                     <i className="fa fa-quote-left" />
-                    Vatthana is a talented fullstack developer! Transformed our
-                    vision into an amazing website. Fast, detail-oriented, and a
-                    great communicator. Highly recommend!
+                    Running on my wheel is my cardio, but scrolling through this
+                    website is my mental workout! Totally wheelie good!
                     <i className="fa fa-quote-right" />
                   </p>
                   <ul className="stars lis-unstyled">
@@ -194,8 +193,8 @@ export default function Testimonial(props) {
                 </div>
                 <div className="client-info">
                   <img src={hamster} alt="client photo"></img>
-                  <h5>Jane Doe</h5>
-                  <p>CFO Some Company</p>
+                  <h5>Captain Fluffykins</h5>
+                  <p>CFO Wheel All Day</p>
                 </div>
               </div>
             </div>
