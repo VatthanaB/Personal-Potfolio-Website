@@ -19,7 +19,7 @@ export default function ContactMe(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const [typeEffect] = useTypewriter({
-    words: ["Get In Touch 📧 ", "Email Me !"],
+    words: ["Get In Touch... ", "Email Me !"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
