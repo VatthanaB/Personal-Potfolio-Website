@@ -6,11 +6,11 @@ import "./Profile.css";
 export default function Profile() {
   const [typeEffect] = useTypewriter({
     words: [
-      "Enthusiastic Dev 😺",
-      "Full Stack Developer 💻",
-      "React/React Native 📱",
-      "NodeJS & ExpressJS 🪐 ",
-      "HTML5/CSS3 🧑‍🎨",
+      "Enthusiastic Dev ",
+      "Full Stack Developer ",
+      "React/React Native ",
+      "NodeJS & ExpressJS  ",
+      "HTML5/CSS3 ",
     ],
     loop: {},
     typeSpeed: 100,
