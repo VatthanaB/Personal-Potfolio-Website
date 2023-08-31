@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     desription:
-      "Bonjour! I'm Vatthana, a 29-year-old French adventurer who has fallen in love wit New Zealand and made a new home in Auckland. My journey began more than a decade ago, crafting delectable and artful pastries within the esteemed walls of Michelin-starred restaurants and opulent palace hotels across the charming city of Paris. But now, I'm embarking on an exhilarating transformation, charting a new course from being a seasoned pastry virtuoso to a burgeoning Full Stack Developer.",
+      "Bonjour! I'm Vatthana, a 29-year-old French adventurer who has fallen in love with New Zealand and made a new home in Auckland. My journey began more than a decade ago, crafting delectable and artful pastries within the esteemed walls of Michelin-starred restaurants and opulent palace hotels across the charming city of Paris. But now, I'm embarking on an exhilarating transformation, charting a new course from being a seasoned pastry virtuoso to a burgeoning Full Stack Developer.",
     highlights: {
       bullets: [
         "Skilled at crafting and nurturing responsive websites and web apps.",
