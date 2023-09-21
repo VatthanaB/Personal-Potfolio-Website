@@ -17,7 +17,7 @@ router.post("/contact", (req, res) => {
     port: 465,
     auth: {
       user: "boulom.vatthana.pro@gmail.com",
-      pass: dotenv.parsed.PASSWORD,
+      pass: process.env.PASSWORD,
     },
   });
   let mailOptions = {
