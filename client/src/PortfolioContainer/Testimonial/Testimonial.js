@@ -187,7 +187,7 @@ export default function Testimonial(props) {
                       <i className=" fa fa-star" />
                     </li>
                     <li>
-                      <i className=" fa fa-star-half-alt" />
+                      <i className=" fa fa-star" />
                     </li>
                   </ul>
                 </div>
