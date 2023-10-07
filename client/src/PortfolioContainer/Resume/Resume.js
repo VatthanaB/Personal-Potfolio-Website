@@ -106,8 +106,11 @@ export default function Resume(props) {
       />
     </div>,
 
-    <div className="resume-screen-container" key="work-experience">
-      <div className="work-experience-container">
+    <div
+      className="resume-screen-container resume-screen-container-employement "
+      key="work-experience"
+    >
+      {/* <div className="work-experience-container">
         <ResumeHeading
           heading={"Internship Level 6"}
           subHeading={"Full Stack Developper Accelerator - Level 6"}
@@ -130,6 +133,38 @@ export default function Resume(props) {
           <br />
           <span className="resume-description-text">
             -More description of the experience
+          </span>
+          <br />
+        </div>
+      </div> */}
+      <div className="work-experience-container">
+        <ResumeHeading
+          heading={"Executif Pasty Chef"}
+          subHeading={"La Petite Fourchette & Copain Bakery - Auckland "}
+          fromDate={"2018"}
+          toDate={"2023"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Led a team of up to 8 staff members at La Petite Fourchette & Copain
+            Bakery in Auckland, New Zealand, from 2018 to 2023, overseeing
+            pastry operations and ensuring exceptional quality.
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Designed and executed pastry menus, optimizing production efficiency
+            and maintaining high standards of taste and presentation.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            Mentored and trained junior pastry chefs, fostering skill
+            development and a cohesive team environment.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            Innovated and introduced new pastry creations, enhancing the
+            bakery's reputation for unique and delicious offerings.
           </span>
           <br />
         </div>
