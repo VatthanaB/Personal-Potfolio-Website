@@ -25,6 +25,7 @@ export const TOTAL_SCREENS = [
     screen_name: "ContactMe",
     component: ContactMe,
   },
+  // { screen_name: "More Projects", component: AboutMe },
 ];
 
 export const GET_SCREEN_INDEX = (screen_name) => {
