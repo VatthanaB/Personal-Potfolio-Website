@@ -8,7 +8,8 @@ export default function Profile() {
     words: [
       "Enthusiastic Dev ",
       "Full Stack Developer ",
-      "React/React Native ",
+      "React/Typescript ",
+      "MERN Stack Developer ",
       "NodeJS & ExpressJS  ",
       "HTML5/CSS3 ",
     ],
