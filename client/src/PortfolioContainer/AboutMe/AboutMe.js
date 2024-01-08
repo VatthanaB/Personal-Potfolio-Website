@@ -20,7 +20,6 @@ export default function AboutMe(props) {
       bullets: [
         "Crafting responsive websites and web apps.",
         "Proficient in HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
-        "Comfortable with Python and Flask.",
         "Familiar with Git, GitHub, and VS Code.",
         "Hands-on exposure to DevOps practices during my learning journey.",
         "Practiced in Agile methodologies.",
