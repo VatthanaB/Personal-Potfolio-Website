@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     desription:
-      "Bonjour! I'm Vatthana, a 29-year-old French adventurer who recently completed a level 4 and 5 accelerator course at Mission Ready HQ in Auckland. With a background in crafting delectable pastries in Parisian Michelin-starred restaurants, I've now set my sights on an exciting transformation. Transitioning from a seasoned pastry virtuoso, I've honed my skills as a Full Stack Developer, delving into the realms of DevOps and cloud technologies. Auckland has become my new home, and I'm ready to bring a blend of French artistry and tech innovation to the vibrant Kiwi tech scene.",
+      "Bonjour! I'm Vatthana, a 29-year-old French adventurer currently immersed in my internship at Datacom (Level 6: Mentored Industry Learning Experience). This internship builds upon the recently completed Level 4 and 5 (NZQA Accredited) accelerator courses at Mission Ready HQ in Auckland. With a background in crafting delectable pastries in Parisian Michelin-starred restaurants, I've embarked on an exciting transformation. Transitioning from a seasoned pastry virtuoso, I've honed my skills as a Full Stack Developer, exploring the realms of DevOps and cloud technologies. Auckland has become my new home, and I'm thrilled to bring a blend of French artistry and tech innovation to the vibrant Kiwi tech scene.",
     highlights: {
       heading: "Key Highlights:",
       bullets: [
