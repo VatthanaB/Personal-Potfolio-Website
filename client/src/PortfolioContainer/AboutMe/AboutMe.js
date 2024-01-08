@@ -14,17 +14,18 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     desription:
-      "Bonjour! I'm Vatthana, a 29-year-old French adventurer who has fallen in love with New Zealand and made a new home in Auckland. My journey began more than a decade ago, crafting delectable and artful pastries within the esteemed walls of Michelin-starred restaurants and opulent palace hotels across the charming city of Paris. But now, I'm embarking on an exhilarating transformation, charting a new course from being a seasoned pastry virtuoso to a burgeoning Full Stack Developer.",
+      "Bonjour! I'm Vatthana, a 29-year-old French adventurer who recently completed a level 4 and 5 accelerator course at Mission Ready HQ in Auckland. With a background in crafting delectable pastries in Parisian Michelin-starred restaurants, I've now set my sights on an exciting transformation. Transitioning from a seasoned pastry virtuoso, I've honed my skills as a Full Stack Developer, delving into the realms of DevOps and cloud technologies. Auckland has become my new home, and I'm ready to bring a blend of French artistry and tech innovation to the vibrant Kiwi tech scene.",
     highlights: {
+      heading: "Key Highlights:",
       bullets: [
-        "Skilled at crafting and nurturing responsive websites and web apps.",
-        "Proficient with HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB.",
-        "Comfortable wielding Python spells, with a hint of Flask magic.",
-        "Familiar with the wizardry of Git, GitHub, and Heroku.",
-        "Eager to embrace new tech and frameworks with open arms.",
-        "Fluent in English and French,  ready to converse in code.",
+        "Crafting responsive websites and web apps.",
+        "Proficient in HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+        "Comfortable with Python and Flask.",
+        "Familiar with Git, GitHub, and VS Code.",
+        "Hands-on exposure to DevOps practices during my learning journey.",
+        "Practiced in Agile methodologies.",
+        "Fluent in English and French, ready to converse in code.",
       ],
-      heading: "Here are a few Highlights:",
     },
   };
   const renderHighlight = () => {

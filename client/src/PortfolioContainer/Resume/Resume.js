@@ -50,19 +50,26 @@ export default function Resume(props) {
 
   const programmingSkillDetails = [
     { skill: "Javascript", ratingPercentage: 80 },
-    { skill: "React", ratingPercentage: 75 },
-    { skill: "HTML", ratingPercentage: 80 },
-    { skill: "CSS", ratingPercentage: 80 },
-    { skill: "NodeJS", ratingPercentage: 70 },
-    { skill: "Express", ratingPercentage: 40 },
-    { skill: "MongoDB", ratingPercentage: 30 },
-    { skill: "MySQL", ratingPercentage: 30 },
-    { skill: "Python", ratingPercentage: 40 },
-    { skill: "Flask", ratingPercentage: 30 },
+    { skill: "TypeScript", ratingPercentage: 70 },
+    { skill: "React", ratingPercentage: 80 },
+    { skill: "HTML / CSS", ratingPercentage: 80 },
+    { skill: "Tailwind /Bootstrap", ratingPercentage: 70 },
+    { skill: "NodeJS / Express ", ratingPercentage: 70 },
+    { skill: "MongoDB / MySQL", ratingPercentage: 30 },
+    { skill: "Github ", ratingPercentage: 70 },
+    { skill: "Flutter", ratingPercentage: 30 },
+    { skill: "Python", ratingPercentage: 20 },
   ];
 
   const projectDetails = [
     {
+      title: "School Projects - MERN Stack Development",
+      duration: { fromDate: "2023", toDate: "2024" },
+      description:
+        "Studied MERN Stack development at Mission Ready HQ, covering frontend, backend, and GitHub version control.",
+      subHeading: "Areas of Study: MERN Stack, Frontend, Backend, GitHub",
+    },
+    {
       title: "Personal Portfolio Website",
       duration: { fromDate: "2023", toDate: "2023" },
       description:
@@ -70,16 +77,9 @@ export default function Resume(props) {
       subHeading: "Technologies Used : ReactJS, HTML, CSS, Javascript",
     },
     {
-      title: "Personal Blog Website",
+      title: "Projects Portfolio Website",
       duration: { fromDate: "2023", toDate: "2023" },
-      description: " A personal blog website to showcase my work and skills.",
-      subHeading: "Technologies Used : ReactJS, HTML, CSS, Javascript",
-    },
-    {
-      title: "Personal Portfolio Website",
-      duration: { fromDate: "2023", toDate: "2023" },
-      description:
-        " A personal portfolio website to showcase my work and skills.",
+      description: " A personal blog website to showcase my projects.",
       subHeading: "Technologies Used : ReactJS, HTML, CSS, Javascript",
     },
   ];
