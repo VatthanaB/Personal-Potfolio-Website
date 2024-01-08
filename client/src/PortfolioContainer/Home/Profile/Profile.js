@@ -8,10 +8,12 @@ export default function Profile() {
     words: [
       "Enthusiastic Dev ",
       "Full Stack Developer ",
+      "DevOps & Cloud Technologies ",
+      "Agile Methodologies ",
       "React/Typescript ",
       "MERN Stack Developer ",
       "NodeJS & ExpressJS  ",
-      "HTML5/CSS3 ",
+      "MongoDB & SQL ",
     ],
     loop: {},
     typeSpeed: 100,
