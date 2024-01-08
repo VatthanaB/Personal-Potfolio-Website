@@ -56,7 +56,7 @@ export default function Resume(props) {
     { skill: "Tailwind /Bootstrap", ratingPercentage: 70 },
     { skill: "NodeJS / Express ", ratingPercentage: 70 },
     { skill: "MongoDB / MySQL", ratingPercentage: 30 },
-    { skill: "Github ", ratingPercentage: 70 },
+    { skill: "Github, Git ", ratingPercentage: 70 },
     { skill: "Flutter", ratingPercentage: 30 },
     { skill: "Python", ratingPercentage: 20 },
   ];
@@ -110,33 +110,6 @@ export default function Resume(props) {
       className="resume-screen-container resume-screen-container-employement "
       key="work-experience"
     >
-      {/* <div className="work-experience-container">
-        <ResumeHeading
-          heading={"Internship Level 6"}
-          subHeading={"Full Stack Developper Accelerator - Level 6"}
-          fromDate={"2024"}
-          toDate={"2024"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text">
-            Description of the experience
-          </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            -More description of the experience
-          </span>
-          <br />
-          <span className="resume-description-text">
-            -More description of the experience
-          </span>
-          <br />
-          <span className="resume-description-text">
-            -More description of the experience
-          </span>
-          <br />
-        </div>
-      </div> */}
       <div className="work-experience-container">
         <ResumeHeading
           heading={"Executif Pasty Chef"}
