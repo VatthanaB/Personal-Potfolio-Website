@@ -26,12 +26,12 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://www.facebook.com/">
+              {/* <a href="https://www.facebook.com/">
                 <i className="fa fa-facebook-square"></i>
               </a>
               <a href="https://www.instagram.com/">
                 <i className="fa fa-instagram"></i>
-              </a>
+              </a> */}
               <a href="https://github.com/VatthanaB">
                 <i className="fa-brands fa-square-github"></i>
               </a>
