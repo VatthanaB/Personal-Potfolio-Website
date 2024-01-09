@@ -112,7 +112,7 @@ export default function Resume(props) {
     >
       <div className="work-experience-container">
         <ResumeHeading
-          heading={"Executif Pasty Chef"}
+          heading={"Executive Pasty Chef"}
           subHeading={"La Petite Fourchette & Copain Bakery - Auckland "}
           fromDate={"2018"}
           toDate={"2023"}
@@ -178,7 +178,7 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Board Games 🎲"
-        description="Strategizing and rolling dice - board games turn tabletops into realms of rivalry and camaraderie."
+        description="Strategising and rolling dice - board games turn tabletops into realms of rivalry and camaraderie."
       />
       <ResumeHeading
         heading="Reading 📚"
