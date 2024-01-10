@@ -61,10 +61,15 @@ export default function Profile() {
           <div className="profile-options">
             <button
               className="btn primary-btn"
-              onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+              onClick={() =>
+                window.open(
+                  "https://projects-portfolio-frontend-601c352fdbb7.herokuapp.com/",
+                  "_blank"
+                )
+              }
             >
               {""}
-              Hire Me{" "}
+              My Projects{" "}
             </button>
             <a href="Vatthana-cv.pdf" download="Vatthana-boulom-cv.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
