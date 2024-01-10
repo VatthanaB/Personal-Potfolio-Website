@@ -88,7 +88,7 @@ export default function Testimonial(props) {
                   </ul>
                 </div>
                 <div className="client-info">
-                  <img src={cat} alt="client photo"></img>
+                  <img src={cat} alt="client portrait"></img>
                   <h5>Mr. Whiskers </h5>
                   <p>CFO Tiger&co</p>
                 </div>
