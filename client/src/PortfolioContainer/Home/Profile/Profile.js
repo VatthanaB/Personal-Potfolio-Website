@@ -16,8 +16,8 @@ export default function Profile() {
       "MongoDB & SQL ",
     ],
     loop: {},
-    typeSpeed: 100,
-    deleteSpeed: 40,
+    typeSpeed: 80,
+    deleteSpeed: 50,
   });
 
   return (
@@ -50,7 +50,7 @@ export default function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               {" "}
-              <h1>
+              <h1 style={{ minHeight: "2em" }}>
                 <span>{typeEffect}</span>
               </h1>
               <span className="profile-role-tagline">
