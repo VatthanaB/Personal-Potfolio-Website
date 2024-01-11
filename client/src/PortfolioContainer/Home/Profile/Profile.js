@@ -1,6 +1,6 @@
 import React from "react";
 import { useTypewriter } from "react-simple-typewriter";
-import ScrollService from "../../../utilities/ScrollService";
+
 import "./Profile.css";
 
 export default function Profile() {
