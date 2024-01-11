@@ -50,7 +50,7 @@ export default function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               {" "}
-              <h1 style={{ minHeight: "2em" }}>
+              <h1 style={{ height: "1.5em" }}>
                 <span>{typeEffect}</span>
               </h1>
               <span className="profile-role-tagline">
