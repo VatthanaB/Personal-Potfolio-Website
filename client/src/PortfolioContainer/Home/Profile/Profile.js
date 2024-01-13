@@ -63,7 +63,7 @@ export default function Profile() {
               className="btn primary-btn"
               onClick={() =>
                 window.open(
-                  "https://projects-portfolio-frontend-601c352fdbb7.herokuapp.com/",
+                  "https://projects-portfolio-vatthana.vercel.app/",
                   "_blank"
                 )
               }
