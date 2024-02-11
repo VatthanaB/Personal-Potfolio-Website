@@ -112,34 +112,25 @@ export default function Resume(props) {
     >
       <div className="work-experience-container">
         <ResumeHeading
-          heading={"Executive Pasty Chef"}
-          subHeading={"La Petite Fourchette & Copain Bakery - Auckland "}
-          fromDate={"2018"}
-          toDate={"2023"}
+          heading={"Full-Stack Developer"}
+          subHeading={"Internship at Datacom, Auckland, New Zealand"}
+          fromDate={"02/2024"}
+          toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Led a team of up to 8 staff members at La Petite Fourchette & Copain
-            Bakery in Auckland, New Zealand, from 2018 to 2023, overseeing
-            pastry operations and ensuring exceptional quality.
+            In my current role as a full-stack developer on a digital screens
+            project, I'm leveraging Strapi for backend management and Next.js
+            for frontend development.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            Designed and executed pastry menus, optimizing production efficiency
-            and maintaining high standards of taste and presentation.
+            My focus is on integrating these technologies to craft a responsive
+            user interface and robust content management system, optimizing for
+            performance and scalability in preparation for the product's
+            upcoming release.
           </span>
-          <br />
-          <span className="resume-description-text">
-            Mentored and trained junior pastry chefs, fostering skill
-            development and a cohesive team environment.
-          </span>
-          <br />
-          <span className="resume-description-text">
-            Innovated and introduced new pastry creations, enhancing the
-            bakery's reputation for unique and delicious offerings.
-          </span>
-          <br />
         </div>
       </div>
     </div>,
